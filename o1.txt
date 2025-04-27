@@ -1,0 +1,140 @@
+fun main() {
+
+    val sehir = "Istanbul"
+    println("Şehir: $sehir")
+
+    val ulke = "Türkiye"
+    println("Ülke: $ulke")
+
+    val telefon = "0555 123 4567"
+    println("Telefon: $telefon")
+
+    val postaKodu = "34000"
+    println("Posta Kodu: $postaKodu")
+
+    val email = "ornek@email.com"
+    println("Email: $email")
+
+    val meslek = "Yazılım Mühendisi"
+    println("Meslek: $meslek")
+
+    val stokMiktari = 150
+    println("Stok Miktarı: $stokMiktari")
+
+    val musteriAdi = "Ali Veli"
+    println("Müşteri Adı: $musteriAdi")
+
+    val bakiye = 1250.75
+    println("Bakiye: $bakiye")
+
+    val dogumGunu = "15.04.1998"
+    println("Doğum Günü: $dogumGunu")
+
+    val maas = 25000
+    println("Maaş: $maas")
+
+    val medeniDurum = "Bekar"
+    println("Medeni Durum: $medeniDurum")
+
+    val urunYorum = "Ürün çok kaliteli."
+    println("Ürün Yorum: $urunYorum")
+
+    val odemeTarihi = "26.04.2025"
+    println("Ödeme Tarihi: $odemeTarihi")
+
+    val odeme = 499.99
+    println("Ödeme: $odeme")
+
+    val siparisAdeti = 3
+    println("Sipariş Adeti: $siparisAdeti")
+
+    val arabaModeli = "BMW 320i"
+    println("Araba Modeli: $arabaModeli")
+
+    val kitapAdi = "Kotlin Programlama"
+    println("Kitap Adı: $kitapAdi")
+
+    val yayinlamaTarihi = "01.03.2022"
+    println("Yayınlama Tarihi: $yayinlamaTarihi")
+
+    val indirimMiktari = 15
+    println("İndirim Miktarı: $indirimMiktari%")
+
+    val odaSayisi = 2
+    println("Oda Sayısı: $odaSayisi")
+
+    val enlem = 41.0082
+    println("Enlem: $enlem")
+
+    val boylam = 28.9784
+    println("Boylam: $boylam")
+
+    val urunAdi = "Akıllı Telefon"
+    println("Ürün Adı: $urunAdi")
+
+    val yemekFiyati = 85.5
+    println("Yemek Fiyatı: $yemekFiyati")
+
+    val marka = "Apple"
+    println("Marka: $marka")
+
+    val muzikAdi = "Imagine"
+    println("Müzik Adı: $muzikAdi")
+
+    val videoSuresi = "12:45"
+    println("Video Süresi: $videoSuresi")
+
+    val urunPuani = 4.8
+    println("Ürün Puanı: $urunPuani")
+
+    val resimAdi = "manzara.jpg"
+    println("Resim Adı: $resimAdi")
+
+    val dosyaFormati = "JPEG"
+    println("Dosya Formatı: $dosyaFormati")
+
+    val renk = "Mavi"
+    println("Renk: $renk")
+
+    val renkKodu = "#0000FF"
+    println("Renk Kodu: $renkKodu")
+
+    val telefonModeli = "iPhone 15 Pro"
+    println("Telefon Modeli: $telefonModeli")
+
+    val ekranBoyutu = "6.1 inç"
+    println("Ekran Boyutu: $ekranBoyutu")
+
+    val agirlik = "187 gram"
+    println("Ağırlık: $agirlik")
+
+    val ulusalGun = "23 Nisan"
+    println("Ulusal Gün: $ulusalGun")
+
+    val tatilGunu = "1 Mayıs"
+    println("Tatil Günü: $tatilGunu")
+
+    val rezervasyonTarihi = "30.06.2025"
+    println("Rezervasyon Tarihi: $rezervasyonTarihi")
+
+    val sokakAdi = "İstiklal Caddesi"
+    println("Sokak Adı: $sokakAdi")
+
+    val otobusHatti = "34AS"
+    println("Otobüs Hattı: $otobusHatti")
+
+    val kalanDakika = 5
+    println("Kalan Dakika: $kalanDakika")
+
+    val takipKodu = "TR123456789"
+    println("Takip Kodu: $takipKodu")
+
+    val kuponSuresi = "30 gün"
+    println("Kupon Süresi: $kuponSuresi")
+
+    val kuponKodu = "KOTLIN30"
+    println("Kupon Kodu: $kuponKodu")
+
+    val faturaAdresi = "Beşiktaş, İstanbul"
+    println("Fatura Adresi: $faturaAdresi")
+}
