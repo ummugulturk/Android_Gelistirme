@@ -1,0 +1,95 @@
+fun main() {
+    // 1. Dereceyi Fahrenheit'a çevirme
+    val derece = 25
+    println("Fahrenheit: ${dereceToFahrenheit(derece)} °F")
+
+    // 2. Dikdörtgen çevresi hesaplama
+    val uzunKenar = 5
+    val kisaKenar = 3
+    println("Dikdörtgen Çevresi: ${dikdortgenCevresi(uzunKenar, kisaKenar)}")
+
+    // 3. Faktöriyel hesaplama
+    val sayi = 5
+    println("Faktöriyel: ${faktoriyel(sayi)}")
+
+    // 4. Kelime içinde 'a' harfi sayma
+    val kelime = "Ankara"
+    println("Kelime içinde 'a' harfi sayısı: ${harfSayisi(kelime)}")
+
+    // 5. Kenar sayısına göre iç açılar toplamı
+    val kenarSayisi = 6
+    println("İç Açılar Toplamı: ${icAciToplami(kenarSayisi)} derece")
+
+    // 6. Gün sayısına göre maaş hesaplama
+    val gunSayisi = 22
+    println("Toplam Maaş: ${maasHesapla(gunSayisi)} ₺")
+
+    // 7. Kota miktarına göre internet ücreti hesaplama
+    val kotaMiktari = 70
+    println("İnternet Ücreti: ${kotaUcretiHesapla(kotaMiktari)} ₺")
+}
+
+// 1. Dereceyi Fahrenheit'a çeviren metod
+fun dereceToFahrenheit(celsius: Int): Double {
+    return celsius * 1.8 + 32
+}
+
+// 2. Dikdörtgen çevresi hesaplayan metod
+fun dikdortgenCevresi(uzunKenar: Int, kisaKenar: Int): Int {
+    return 2 * (uzunKenar + kisaKenar)
+}
+
+// 3. Faktöriyel hesaplayan metod
+fun faktoriyel(sayi: Int): Int {
+    var sonuc = 1
+    for (i in 1..sayi) {
+        sonuc *= i
+    }
+    return sonuc
+}
+
+// 4. Kelime içinde kaç tane 'a' harfi olduğunu bulan metod
+fun harfSayisi(kelime: String): Int {
+    var sayac = 0
+    for (harf in kelime.lowercase()) {
+        if (harf == 'a') {
+            sayac++
+        }
+    }
+    return sayac
+}
+
+// 5. Kenar sayısına göre iç açılar toplamı
+fun icAciToplami(kenarSayisi: Int): Int {
+    return (kenarSayisi - 2) * 180
+}
+
+// 6. Gün sayısına göre maaş hesaplama
+fun maasHesapla(gunSayisi: Int): Int {
+    val calismaSaatUcreti = 10
+    val mesaiSaatUcreti = 20
+    val saatlikCalisma = 8
+    val toplamSaat = gunSayisi * saatlikCalisma
+
+    return if (toplamSaat <= 160) {
+        toplamSaat * calismaSaatUcreti
+    } else {
+        val normalSaat = 160
+        val mesaiSaat = toplamSaat - 160
+        (normalSaat * calismaSaatUcreti) + (mesaiSaat * mesaiSaatUcreti)
+    }
+}
+
+// 7. Kota miktarına göre internet ücreti hesaplayan metod
+fun kotaUcretiHesapla(kota: Int): Int {
+    val kotaLimiti = 50
+    val kotaUcreti = 100
+    val asimUcreti = 4
+
+    return if (kota <= kotaLimiti) {
+        kotaUcreti
+    } else {
+        val asimMiktari = kota - kotaLimiti
+        kotaUcreti + (asimMiktari * asimUcreti)
+    }
+}
