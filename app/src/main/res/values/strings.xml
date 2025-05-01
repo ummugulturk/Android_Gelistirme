@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Furnitur3.com</string>
+
+    <string name="koltukBaslik">Classic Armchair</string>
+    <string name="description">description</string>
+    <string name="size">size</string>
+    <string name="colorss">colors</string>
+    <string name="koltukOzellik">armchair, tibbleby beige/grey</string>
+    <string name="koltukAciklama">This classic and timeless wing chair with an embracing backrest gives you relaxing me-time and is also great to sit on while enjoying socialising with others.
+
+Clean lines, simple and at the same time a softly rounded design with wooden legs all make the wing chair easy to like and place anywhere.</string>
+    <string name="fiyatYazi">$ 350</string>
+    <string name="buttonYazi">ADD TO CART</string>
+</resources>

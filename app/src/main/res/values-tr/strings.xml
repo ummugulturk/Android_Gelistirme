@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Furnitur3.com</string>
+
+    <string name="koltukBaslik">Klasik Koltuk</string>
+    <string name="description">Açıklama</string>
+    <string name="size">Ölçü</string>
+    <string name="colorss">Renk</string>
+    <string name="koltukOzellik">koltuk, tibbleby bej/gri</string>
+    <string name="koltukAciklama">Sırtınızı saran bu klasik ve zamansız berjer, size rahatlama zamanı sunarken aynı zamanda başkalarıyla sosyalleşirken oturmak için de harika bir seçenektir.
+
+Temiz çizgiler, sadelik ve aynı zamanda yumuşak yuvarlatılmış ahşap ayaklı tasarım, berjeri beğenilmesi ve her yere yerleştirilmesi açısından kolaylaştırıyor.</string>
+    <string name="fiyatYazi">$ 350</string>
+    <string name="buttonYazi">SEPETE EKLE</string>
+</resources>
